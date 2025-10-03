@@ -1,2 +1,2 @@
 # nokios
-Quizz app, F theme
+Quizz app, Fi1 theme
