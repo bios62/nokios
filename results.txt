@@ -1,0 +1,12 @@
+{"email":"inge.os@oracle.com","phone":"123","q1":"3","q2":"2","q3":"1"}
+{"email":"taru.savunen@hotmail.com","phone":"+358405884819","q1":"3","q2":"2","q3":"1"}
+{"email":"lange@mail.dk","phone":"12345678","q1":"3","q2":"2","q3":"1"}
+{"email":"inge.os@oracle.com","phone":"90822786","q1":"2","q2":"2","q3":"2"}
+{"email":"inge.os@oracle.com","phone":"11223344","q1":"1","q2":"1","q3":"1"}
+{"email":"inge.os@oracle.com","phone":"11223344","q1":"1","q2":"1","q3":"1"}
+{"email":"inge.os@oracle.com","phone":"11223344","q1":"1","q2":"1","q3":"1"}
+{"email":"inge.os@oracle.com","phone":"11223344","q1":"1","q2":"1","q3":"1"}
+{"email":"inge.os@oracle.com","phone":"11223344","q1":"1","q2":"1","q3":"1"}
+{"email":"inge.os@oracle.com","phone":"11223344","q1":"1","q2":"1","q3":"1"}
+{"email":"inge.os@oracle.com","phone":"11223344","q1":"1","q2":"1","q3":"1"}
+{"email":"i@o.com","phone":"11223344","q1":"1","q2":"1","q3":"1"}

@@ -1,0 +1,46 @@
+<html>  
+    <body>  
+    <!--
+    <form action="http:localhost:8080/test1" method="POST">  
+    First Name: <input type="text" name="first_name">  <br>  
+    Last Name: <input type="text" name="last_name">  
+    <input type="submit" value="Submit">  
+    </form> 
+-->
+<form action="http://localhost:8080/processdata" class="form" id="form1" method="post" enctype="application/json" >
+      
+    <p class="email">
+      <input name="email" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="email" id="email" />
+    </p>
+    
+    <p class="phone">
+      <input name="phone" type="text" class="validate[required,custom[email]] feedback-input" id="phone" placeholder="telefonnr" />
+    </p>
+    <input type="radio" id="option1" name="option1" value="option1">
+    <label for="option1">14</label><BR>
+    <input type="radio" id="option2" name="option2" value="option2">
+    <label for="option2">39</label><BR>
+    
+    <!-- <p class="radio">
+      <textarea name="radio" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Comment"></textarea>
+    </p> 
+    <div style="color: #D3D3D3">
+    <p class="query">
+      <B>Hvor mange skydatasenter har Oracle globalt</B>
+    </p>  
+      <input type="radio" id="option1" name="option1" value="option1">
+      <label for="option1">14</label><BR>
+      <input type="radio" id="option2" name="option2" value="option2">
+      <label for="option2">39</label><BR>
+      <input type="radio" id="option2" name="option3" value="option3">
+      <label for="option3">80</label><BR>
+    </p>   
+    </div> -->
+    <div class="submit">
+      <input type="submit" value="SEND" id="button-blue"/>
+      <div class="ease"></div>
+    </div>
+  </form> 
+    </body>  
+    </html>
+    
