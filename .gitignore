@@ -1,4 +1,11 @@
-# Logs
+#
+# Internals
+#
+*swp
+internal/*
+access.log
+result.txt
+## Logs
 logs
 *.log
 npm-debug.log*
