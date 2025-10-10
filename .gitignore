@@ -1,11 +1,13 @@
 #
-# Internals
+# My internal stuff
 #
-*swp
 internal/*
+.DS_Store
+results.txt
 access.log
-result.txt
+*swp
 ## Logs
+
 logs
 *.log
 npm-debug.log*
