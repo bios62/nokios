@@ -5,7 +5,9 @@ internal/*
 .DS_Store
 results.txt
 access.log
-# Logs
+*swp
+## Logs
+
 logs
 *.log
 npm-debug.log*

@@ -11,7 +11,7 @@ const app = express() ;
 const resultFile='results.txt';
 const logFile='access.log';
 const portNumber=7001;
-const serverName='www.nokios.flat4u.no';
+const serverName='www.oracledemo.no'
 
 var urlencodedParser = bodyParser.urlencoded({ extended: false })
 
@@ -63,10 +63,11 @@ app.post('/processdata', urlencodedParser, function (req, res) {
 		if (response.q3 == 1) {
 			numRes++;
 		}
-		
+	        // Assume 443, if 7001 is teh case, it comes from LBR
+	        //
 		if (portNumber == 80 || portNumber == 8080) {
 			urlPrefix='http://';
-		} else if (portNumber == 443 || portNumber == 8443) {
+		} else if (portNumber == 443 || portNumber == 8443 || portNumber == 7001 ) {
 			urlPrefix='https://';
 		}
 		/* if (portNumber == 80 || portNumber == 443) {
@@ -74,7 +75,15 @@ app.post('/processdata', urlencodedParser, function (req, res) {
 		} else {
 			newPage=urlPrefix+serverName+':'+portNumber+'/nokios_takk'+numRes+'.html';
 		} */
-		newPage=urlPrefix+serverName+'/nokios_takk'+numRes+'.html';
+                if (portNumber == 80 || portNumber == 443) {
+                        newPage=urlPrefix+serverName+'/nokios_takk'+numRes+'.html';
+                } else {
+                       newPage=urlPrefix+serverName+':'+portNumber+'/nokios_takk'+numRes+'.html';
+                }
+        //res.end(JSON.stringify(response));
+        //        console.log('Redirect to: '+newPage);
+        //                res.redirect(newPage);
+		newPage='/nokios_takk'+numRes+'.html';
 		//res.end(JSON.stringify(response));  
 		console.log('Redirect to: '+newPage);
 		res.redirect(newPage);
