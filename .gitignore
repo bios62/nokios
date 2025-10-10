@@ -1,3 +1,7 @@
+#
+# My internal stuff
+#
+internal/*
 # Logs
 logs
 *.log
