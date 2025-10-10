@@ -2,6 +2,9 @@
 # My internal stuff
 #
 internal/*
+.DS_Store
+results.txt
+access.log
 # Logs
 logs
 *.log
