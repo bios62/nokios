@@ -10,7 +10,9 @@ const app = express() ;
 
 const resultFile='results.txt';
 const portNumber=7001;
-const serverName='www.nokios.oracle.com';
+#const serverName='www.nokios.oracle.com';
+const serverName='www.oracledemo.no';:w
+
 
 var urlencodedParser = bodyParser.urlencoded({ extended: false })
 
